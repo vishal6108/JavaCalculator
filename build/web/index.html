@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Add Module | Home Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+      <div class="container" >
+          <div class = "row">
+              <div class="col-md-6 offset-3">
+                  <form action="OutPut.jsp" name="myForm">
+                  <div class=" card">
+                      <div class="card-header bg-dark text-white" style="align-content: center;text-align: center">
+                          <h3>ENTER ANY TWO NUMBER </h3>
+                      </div>
+                      <div class="card-body bg-secondary">
+                          <div class="from-group">
+                              <input type = "number"class="form-control" name="ip1" placeholder="Enter 1st Number" required/>
+                          </div>
+                          <br>
+                          <div class="from-group">
+                              <input type = "number"class="form-control" name="ip2" placeholder="Enter 2st Number" required/>
+                          </div>
+                          <br>
+                          <div class="rdbtn bg-dark text-white" style="align-content: center;text-align: center">
+                           <b><input type="radio" name="option" value="add" required/>ADDITION</input>
+                           <input type="radio" name="option" value="substract">SUBTRACTION</input>
+                           <input type="radio" name="option" value="mul">MULTIPLICATION</input>
+                           <input type="radio" name="option" value="divide">DIVISION</input></b>
+                          </div>
+        
+                      </div>
+                      <div class="card-footer bg-dark text-white" style="align-content: center;text-align: center">
+                      <button class="btn btn-outline-light bg-dark" type="submit" name="button1" value="submit" >SUBMIT</button>
+                      </div>
+                  </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </body>
+</html>
